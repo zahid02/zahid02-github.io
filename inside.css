@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+#wraper {
+    width: 960px;
+    margin: 10px auto;
+
+    border: 1px solid black;
+    ;
+}
+
+.header {
+    background-color: black;
+    padding: 15px;
+    border-bottom: 5px solid turquoise;
+}
+
+.header h2 {
+    color: red;
+    font-family: 'Metal Mania', cursive;
+}
+
+.header p {
+    color: #ff5200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    background-color: #e8e4e1;
+    height: 44px;
+    border-bottom: 5px solid turquoise;
+}
+
+.nav-bar ul {
+    background-color: #e8e4e1;
+    list-style-type: none;
+    z-index: 999;
+}
+
+.nav-bar ul li {
+    float: left;
+    border-right: 1px solid black;
+    position: relative;
+}
+
+.nav-bar ul li:last-child {
+    border: none;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    color: #Da1f28;
+    display: block;
+    padding: 10px 20px;
+}
+
+.nav-bar ul li a:hover {
+    color: #760C10;
+
+}
+
+
+.nav-bar ul li ul {
+    position: absolute;
+    display: none;
+
+}
+
+
+.nav-bar ul li:hover ul {
+    display: block;
+
+}
+
+.nav-bar ul li ul li {
+    border-right: none;
+    border-bottom: 1px solid #Da1f28;
+    width: 150px;
+}
+
+.nav-bar ul li ul li:first-child {
+    border-top: 1px solid #Da1f28;
+}
+
+.content-wraper {
+    background-color: #e8e4e1;
+    color: red;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.content {
+    width: 630px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.sidebar {
+    width: 270px;
+    float: left;
+
+}
+
+
+.slider img {
+    width: 960px;
+    vertical-align: middle;
+
+}
+
+.sidebar ul {
+    list-style-type: circle;
+    margin-left: 20px;
+
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    display: block;
+}
+
+.content-wraper h2,
+h3 {
+    color: red;
+    font-family: 'Metal Mania', cursive;
+    margin-bottom: 5px;
+}
+
+.content-wraper p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 20px 0px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.content img {
+    width: 450px;
+    height: 360px;
+
+}
+
+.content figure{
+    width: 450px;
+    padding: 10px;
+    background-color: black;
+    margin: 0 auto;
+    display: block;
+}
+
+.content figcaption{
+    text-align: center;
+    color: #Da1f28;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+blockquote{
+    background-color: rgba(151, 138, 138, 0.404);
+    margin-left: 20px;
+    padding: 20px;
+    margin-top: 15px;
+    border-left: 2px solid orange;
+}
+
+
+.footer {
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    color: turquoise;
+}
